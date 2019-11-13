@@ -78,8 +78,9 @@
 
             for (i = 0; i < value; i++) {
                 deck1.push(deck[i]);
+                deck2.push(deck[i]);
             }
-            deck2 = shuffle(deck1);
+            shuffle(deck1);
 
             for (i = 0; i < value; i++) {
                 card1 = '<div class="col-3 mb-2"><img data-card="' + deck1[i] + ' " src="img/gray_back.png" style="width:100%" /></div>';
